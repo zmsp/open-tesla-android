@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+    <item android:title="State">
+        <menu>
+            <item
+                android:id="@+id/nav_state_charge"
+                android:icon="@drawable/ic_menu_battery"
+                android:title="Charge" />
+
+            <item
+                android:id="@+id/nav_state_climate"
+                android:icon="@drawable/ic_menu_slideshow"
+                android:title="Climate" />
+            <item
+                android:id="@+id/nav_state_driving"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Driving" />
+
+            <item
+                android:id="@+id/nav_state_gui"
+                android:icon="@drawable/ic_menu_location"
+                android:title="GUI" />
+
+            <item
+                android:id="@+id/nav_state_location"
+                android:icon="@drawable/ic_menu_location"
+                android:title="Vehicle" />
+        </menu>
+    </item>
+
+
+</menu>
